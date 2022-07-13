@@ -16,27 +16,29 @@ body {
 
 .bolded {
     color: white;
+    font-weight: bolder;
 }
 
 .left-side-paragraphs {
     padding-left: 50px;
-    height: fit-content;
 }
 
 .paragraph-1 {
     width: 500px;
     border: 15px;
-    margin: 5px;
+    margin: 65px 20px 25px 25px;
     height: 150px;
 }
 
 .image {
-    height: 700pxpx;
-    width: 700px;
+    height: 500px;
+    width: 1000px;
 }
 
-.spacer-1 {
-    width: 300px;
+.right-middle {
+    margin: 100px;
+    margin-right: 0px;
+    margin-bottom: 0px;
 }
 
 .paragraph-2 {
@@ -47,8 +49,7 @@ body {
 .button {
     display: flex;
     font-size: 45px;
-    margin-bottom: 400px;
-}
+  }
 
 .sign-up-for-free {
     color: black;
@@ -58,6 +59,9 @@ body {
     outline: 1px rgb(50, 157, 79);
     background-color: rgb(50, 157, 79);
     margin-right: 7px;
+    -webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
 }
 
 .learn-more {
@@ -68,6 +72,9 @@ body {
     outline: 1px black;
     background-color: black;
     margin-left: 7px;
+    -webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
 }
 
 .codepen-fors {
@@ -128,4 +135,12 @@ body {
     display: flex;
     flex-direction: row;
     gap: 3px;
+}
+
+.this-is {
+    color: white;
+}
+
+.projects-2 {
+    color: #56cbf1;
 }
