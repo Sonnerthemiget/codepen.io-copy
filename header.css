@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+}
+
+.header {
+    height: 5rem;
+    background-color: black;
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    width: 100%;
+}
+
+.header > .left {
+    display: flex;
+    justify-content: left;
+    margin: 0px 0px 0px -30px;
+}
+
+.logo {
+    display: inline-block;
+}
+
+.logo img {
+    width: 15rem;
+}
+
+.header > .middle > .explore {
+    display: flex;
+    justify-content: center;
+}
+
+.header > .middle {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 6px;
+    width: 10rem;
+}
+
+.header > .middle {
+    display: flex;
+    justify-content: center;
+    margin: 0px 0px 0px -1240px;
+}
+
+.right-hand-side {
+display: flex;
+justify-content: center;
+}
+
+.create {
+    border: 3px solid black;
+    padding: 15px;
+    padding-bottom: 15px;
+    outline: 1px black;
+    background-color: rgb(72, 72, 72);
+    
+}
+
+.search-button {
+    padding: 15px;
+}
+
+.log-in {
+    border: 3px solid black;
+    padding: 15px;
+    outline: 1px black;
+    background-color: rgb(72, 72, 72);
+}
+
+.sign-up {
+    border: 3px solid black;
+    padding: 15px;
+    outline: 1px black;
+    background-color: rgb(72, 72, 72);
+}
+
+.bottom-links {
+    display: flex;
+}
+
+.bottom-links div {
+    padding: 0px 15px;
+}
+
+.explore {
+    margin-top: 20px;
+}
+
+.bottom-links > .down-bar {
+    display: flex;
+    color: grey;
+    padding-right: 0px;
+}
+
+.down-bar > i {
+    color: grey;
+}
+
+.create > i {
+    color: green;
+}
+
+.explore {
+    color: rgba(255, 255, 0, 0.953);
+}
